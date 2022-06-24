@@ -1,0 +1,14 @@
+@media only screen and (max-width: 375px){
+  body{
+    background: url(bg-intro-mobile.png) hsl(0, 100%, 74%) center center/cover no-repeat;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+  
+} 

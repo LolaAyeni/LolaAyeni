@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <input type="number" id="outputscreen" placeholder="0">
+      <div class="calculator">
+        <button oneclick="Clear()">AC</button>
+        <button oneclick="del()">DEL</button>
+        <button oneclick="display('%')">%</button>
+        <button oneclick="display('/')">/</button>
+
+        <button oneclick="display('7')">7</button>
+        <button oneclick="display('8')">8</button>
+        <button oneclick="display('9')">9</button>
+        <button oneclick="display('*')">*</button>
+
+        <button oneclick="display('4')">4</button>
+        <button oneclick="display('5')">5</button>
+        <button oneclick="display('6')">6</button>
+        <button oneclick="display('-')">-</button>
+
+        <button oneclick="display('1')">1</button>
+        <button oneclick="display('2')">2</button>
+        <button oneclick="display('3')">3</button>
+        <button oneclick="display('+')">+</button>
+
+        <button class="zero" oneclick="display('0')" >0</button>
+        <button oneclick="display('.')">.</button>
+        <button oneclick="Calculate()" class="equal">=</button>
+      </div>
+    </div>
+    <div class="dev">Developed by Lola Ayeni</div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
